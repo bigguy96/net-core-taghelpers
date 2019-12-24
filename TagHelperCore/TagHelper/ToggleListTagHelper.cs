@@ -15,7 +15,7 @@ namespace TagHelperCore.TagHelper
         {
             var checkboxCount = 1;
             var htmlContent = new StringBuilder("");
-            htmlContent.AppendLine(@"<legend><span class=""field-name"">Rating</span></legend>");
+            htmlContent.AppendLine(@"<legend><span class=""field-name"">{Legend text}</span></legend>");
 
             foreach (var item in SelectedItems)
             {
