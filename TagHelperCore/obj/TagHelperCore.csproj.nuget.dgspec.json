@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tauvetg\\Source\\repos\\TagHelperCore\\TagHelperCore\\TagHelperCore.csproj": {}
+    "C:\\Users\\gaeta\\Source\\Repos\\net-core-taghelpers\\TagHelperCore\\TagHelperCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tauvetg\\Source\\repos\\TagHelperCore\\TagHelperCore\\TagHelperCore.csproj": {
+    "C:\\Users\\gaeta\\Source\\Repos\\net-core-taghelpers\\TagHelperCore\\TagHelperCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tauvetg\\Source\\repos\\TagHelperCore\\TagHelperCore\\TagHelperCore.csproj",
+        "projectUniqueName": "C:\\Users\\gaeta\\Source\\Repos\\net-core-taghelpers\\TagHelperCore\\TagHelperCore.csproj",
         "projectName": "TagHelperCore",
-        "projectPath": "C:\\Users\\tauvetg\\Source\\repos\\TagHelperCore\\TagHelperCore\\TagHelperCore.csproj",
-        "packagesPath": "C:\\Users\\tauvetg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tauvetg\\Source\\repos\\TagHelperCore\\TagHelperCore\\obj\\",
+        "projectPath": "C:\\Users\\gaeta\\Source\\Repos\\net-core-taghelpers\\TagHelperCore\\TagHelperCore.csproj",
+        "packagesPath": "C:\\Users\\gaeta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gaeta\\Source\\Repos\\net-core-taghelpers\\TagHelperCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\tauvetg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gaeta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +25,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.tc.gc.ca/nuget": {},
-          "https://www.nuget.org/api/v2/": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
@@ -58,13 +57,23 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

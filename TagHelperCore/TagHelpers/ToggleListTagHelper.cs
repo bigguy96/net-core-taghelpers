@@ -3,7 +3,7 @@ using System.Text;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace TagHelperCore.TagHelper
+namespace TagHelperCore.TagHelpers
 {
     [HtmlTargetElement("fieldset")]
     public class ToggleListTagHelper : Microsoft.AspNetCore.Razor.TagHelpers.TagHelper
