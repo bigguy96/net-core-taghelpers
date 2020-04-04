@@ -37,7 +37,7 @@ namespace TagHelperCore.TagHelpers
             {
                 sb.AppendLine("<li>");
                 sb.AppendLine("<label>");
-                sb.AppendFormat(@$"<input type=""checkbox"" name=""{For.Name}"" id=""{For.Name}"" value=""{item.Id}"">");
+                sb.AppendFormat($@"<input type=""checkbox"" name=""{For.Name}"" id=""{For.Name}"" value=""{item.Id}"">");
                 sb.Append(item.Name);
                 sb.AppendLine("</label>");
                 sb.AppendLine("<ul>");
@@ -47,7 +47,7 @@ namespace TagHelperCore.TagHelpers
                     //sb.AppendLine("<ul>");
                     sb.AppendLine("<li>");
                     sb.AppendLine("<label>");
-                    sb.AppendFormat(@$"<input type=""checkbox"" name=""{i.Id}"" id=""{i.Id}"" value=""{i.Name}"">");
+                    sb.AppendFormat($@"<input type=""checkbox"" name=""{i.Id}"" id=""{i.Id}"" value=""{i.Name}"">");
                     sb.Append(i.Name);
                     sb.AppendLine("</label>");
                     sb.AppendLine("</li>");

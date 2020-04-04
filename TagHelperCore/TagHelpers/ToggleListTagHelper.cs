@@ -5,8 +5,7 @@ using Microsoft.AspNetCore.Razor.TagHelpers;
 
 namespace TagHelperCore.TagHelpers
 {
-    [HtmlTargetElement("fieldset")]
-    public class ToggleListTagHelper : Microsoft.AspNetCore.Razor.TagHelpers.TagHelper
+    public class ToggleListTagHelper : TagHelper
     {
         [HtmlAttributeName("items")]
         public ICollection<SelectListItem> SelectedItems { get; set; }
@@ -27,8 +26,8 @@ namespace TagHelperCore.TagHelpers
             }
 
             output.TagName = "fieldset";
-            output.Attributes.Add("aria-required","true");
-            output.Attributes.Add("data-val","true");
+            output.Attributes.Add("aria-required", "true");
+            output.Attributes.Add("data-val", "true");
             output.Attributes.Add("class", "toggle-list-items-container checkbox-toggle-list");
 
             output.Content.SetHtmlContent(htmlContent.ToString());
